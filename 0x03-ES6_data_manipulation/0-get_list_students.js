@@ -3,7 +3,7 @@
  * @author Monday Odoh <https://github.com/Monemax94>
  * @returns {{id: Number, firstName: String, Location: String}[]}
  */
-export default getListStudents => {
+export default function getListStudents() {
   return [
     { id: 1, firstName: 'Monday Odoh', location: 'Asaba' },
     { id: 2, firstName: 'JohnKennedy', location: 'PHC' },
